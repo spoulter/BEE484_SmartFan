@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -158,9 +158,9 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Smart fan">
+<library name="Smart fan" urn="urn:adsk.eagle:library:5785584">
 <packages>
-<package name="MPL115A1" urn="urn:adsk.eagle:footprint:5785589/1">
+<package name="MPL115A1" urn="urn:adsk.eagle:footprint:5785589/2" library_version="7" library_locally_modified="yes">
 <description>https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf</description>
 <smd name="P$1" x="-1.075" y="1.875" dx="0.55" dy="1.15" layer="1" rot="R90"/>
 <smd name="P$2" x="-1.075" y="0.625" dx="0.55" dy="1.15" layer="1" rot="R90"/>
@@ -174,6 +174,7 @@
 <wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
+<circle x="-1.9" y="2.6" radius="0.1" width="0.2" layer="21"/>
 </package>
 <package name="NANO" urn="urn:adsk.eagle:footprint:5785588/1">
 <pad name="TX0" x="5.08" y="-8.89" drill="0.8" shape="long"/>
@@ -407,7 +408,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="10.16" y1="8.89" x2="0" y2="8.89" width="0.127" layer="20"/>
 <wire x1="0" y1="8.89" x2="0" y2="0" width="0.127" layer="20"/>
 </package>
-<package name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:footprint:5789033/4">
+<package name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:footprint:5789033/5" library_version="7" library_locally_modified="yes">
 <description>&lt;h3&gt;Molex 4-Pin Plated Through-Hole Locking&lt;/h3&gt;
 Holes are offset 0.005" from center to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -434,6 +435,7 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 <text x="2.667" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="2.032" y="-4.826" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <hole x="5.08" y="2.2" drill="1.5"/>
+<hole x="5.08" y="-2.2" drill="1.5"/>
 </package>
 <package name="1X04" urn="urn:adsk.eagle:footprint:5785652/1">
 <description>&lt;h3&gt;Plated Through Hole - 4 Pin&lt;/h3&gt;
@@ -973,7 +975,7 @@ Silk outline shows header location.
 </package>
 </packages>
 <packages3d>
-<package3d name="MPL115A1" urn="urn:adsk.eagle:package:5785598/1" type="box">
+<package3d name="MPL115A1" urn="urn:adsk.eagle:package:5785598/3" type="model" library_version="7" library_locally_modified="yes">
 <description>https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf</description>
 <packageinstances>
 <packageinstance name="MPL115A1"/>
@@ -997,7 +999,7 @@ Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <packageinstance name="TEST"/>
 </packageinstances>
 </package3d>
-<package3d name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:package:5789039/5" type="model">
+<package3d name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:package:5789039/7" type="model" library_version="7" library_locally_modified="yes">
 <description>&lt;h3&gt;Molex 4-Pin Plated Through-Hole Locking&lt;/h3&gt;
 Holes are offset 0.005" from center to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -1334,7 +1336,7 @@ Silk outline shows header location.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MPL115A1" urn="urn:adsk.eagle:component:5785602/1">
+<deviceset name="MPL115A1" urn="urn:adsk.eagle:component:5785602/2" library_version="7" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="MPL115A1" x="0" y="0"/>
 </gates>
@@ -1351,7 +1353,7 @@ Silk outline shows header location.
 <connect gate="G$1" pin="VDD" pad="P$1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5785598/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5785598/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1436,7 +1438,7 @@ Silk outline shows header location.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_04" urn="urn:adsk.eagle:component:5785671/1" locally_modified="yes" prefix="J" uservalue="yes">
+<deviceset name="CONN_04" urn="urn:adsk.eagle:component:5785671/2" locally_modified="yes" prefix="J" uservalue="yes" library_version="7" library_locally_modified="yes">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -1755,7 +1757,7 @@ Silk outline shows header location.
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5789039/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5789039/7"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10684,8 +10686,8 @@ LETTER landscape</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Smart fan" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/1"/>
-<part name="U$2" library="Smart fan" deviceset="NANO" device="" package3d_urn="urn:adsk.eagle:package:5785597/2"/>
+<part name="U$1" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
+<part name="U$2" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="NANO" device="" package3d_urn="urn:adsk.eagle:package:5785597/2"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -10697,7 +10699,7 @@ LETTER landscape</description>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK_LONGPADS"/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J2" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/5"/>
+<part name="J2" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
 <part name="U$3" library="DubSat1 Components" deviceset="SI3865DDV" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -10709,8 +10711,8 @@ LETTER landscape</description>
 <part name="X_15" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="U$6" library="Smart fan" deviceset="PCI-E-X1-BOARD" device="" package3d_urn="urn:adsk.eagle:package:5785595/1"/>
-<part name="J4" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/5"/>
+<part name="U$6" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="PCI-E-X1-BOARD" device="" package3d_urn="urn:adsk.eagle:package:5785595/1"/>
+<part name="J4" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
 <part name="U$5" library="DubSat1 Components" deviceset="SI3865DDV" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_13" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -10719,7 +10721,7 @@ LETTER landscape</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_16" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J8" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/5"/>
+<part name="J8" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
 <part name="U$8" library="DubSat1 Components" deviceset="SI3865DDV" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_22" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -10728,7 +10730,7 @@ LETTER landscape</description>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_23" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_24" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J1" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/5"/>
+<part name="J1" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
 </parts>
 <sheets>
 <sheet>
