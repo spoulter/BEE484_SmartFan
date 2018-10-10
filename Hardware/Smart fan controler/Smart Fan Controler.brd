@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -159,6 +159,8 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyOTMyNDU0" projecturn="a.cGVyc29uYWw6dWUyOTMyNDU0IzIwMTgxMDA3MTUzMTAzOTAx" f3durn="urn:adsk.wipprod:dm.lineage:E5cRXgZ-R9ypY8vzBwkC1w" pcbguid="90d878c4-44ff-45d2-ad2f-7e11d349a802" lastpulledtime="" lastsyncedchangeguid="4d21182b-3b5b-7699-d170-6a4125d8f288"/>
 <plain>
+<hole x="-30.19" y="8.715" drill="3.2"/>
+<hole x="-30.19" y="94.105" drill="3.2"/>
 </plain>
 <libraries>
 <library name="Smart fan" urn="urn:adsk.eagle:library:5785584">
