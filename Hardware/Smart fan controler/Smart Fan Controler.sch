@@ -158,7 +158,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="Smart fan">
+<library name="Smart fan" urn="urn:adsk.eagle:library:5785584">
 <packages>
 <package name="MPL115A1" urn="urn:adsk.eagle:footprint:5785589/2" library_version="7" library_locally_modified="yes">
 <description>https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf</description>
@@ -214,7 +214,7 @@
 <pad name="ICSP3" x="-2.54" y="-10.16" drill="0.8" rot="R90"/>
 <pad name="ICSP5" x="0" y="-10.16" drill="0.8" rot="R90"/>
 </package>
-<package name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:footprint:5789033/5" library_version="7" library_locally_modified="yes">
+<package name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:footprint:5789033/6" library_version="11">
 <description>&lt;h3&gt;Molex 4-Pin Plated Through-Hole Locking&lt;/h3&gt;
 Holes are offset 0.005" from center to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -240,8 +240,8 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 <pad name="4" x="7.62" y="-0.127" drill="1.016" diameter="1.8796"/>
 <text x="2.667" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="2.032" y="-4.826" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<hole x="5.08" y="2.2" drill="1.5"/>
-<hole x="5.08" y="-2.2" drill="1.5"/>
+<hole x="5.08" y="2.2" drill="1.3"/>
+<hole x="5.08" y="-2.2" drill="1.3"/>
 </package>
 <package name="1X04" urn="urn:adsk.eagle:footprint:5785652/1">
 <description>&lt;h3&gt;Plated Through Hole - 4 Pin&lt;/h3&gt;
@@ -804,7 +804,7 @@ Silk outline shows header location.
 <packageinstance name="NANO"/>
 </packageinstances>
 </package3d>
-<package3d name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:package:5789039/7" type="model" library_version="7" library_locally_modified="yes">
+<package3d name="MOLEX_FAN_HEADER" urn="urn:adsk.eagle:package:5789039/9" type="model" library_version="11">
 <description>&lt;h3&gt;Molex 4-Pin Plated Through-Hole Locking&lt;/h3&gt;
 Holes are offset 0.005" from center to hold pins in place during soldering. 
 &lt;p&gt;Specifications:
@@ -1054,7 +1054,7 @@ Silk outline shows header location.
 <packageinstance name="1X04_SMD_RA_FEMALE"/>
 </packageinstances>
 </package3d>
-<package3d name="AIR_SENSOR" urn="urn:adsk.eagle:package:5896327/1" type="box" library_version="7" library_locally_modified="yes">
+<package3d name="AIR_SENSOR" urn="urn:adsk.eagle:package:5896327/2" type="model" library_version="11">
 <packageinstances>
 <packageinstance name="AIR_SENSOR"/>
 </packageinstances>
@@ -1226,7 +1226,7 @@ Silk outline shows header location.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_04" urn="urn:adsk.eagle:component:5785671/3" prefix="J" uservalue="yes">
+<deviceset name="CONN_04" urn="urn:adsk.eagle:component:5785671/5" prefix="J" uservalue="yes" library_version="11">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -1545,7 +1545,7 @@ Silk outline shows header location.
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5789039/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5789039/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1553,14 +1553,14 @@ Silk outline shows header location.
 </device>
 </devices>
 </deviceset>
-<deviceset name="AIR_QUALITY_SENSOR" urn="urn:adsk.eagle:component:5896328/1" library_version="7" library_locally_modified="yes">
+<deviceset name="AIR_QUALITY_SENSOR" urn="urn:adsk.eagle:component:5896328/2" library_version="11">
 <gates>
 <gate name="G$1" symbol="AIR_SENSOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="AIR_SENSOR">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5896327/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5896327/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -10937,10 +10937,10 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 </deviceset>
 </devicesets>
 </library>
-<library name="DubSat1 Components" urn="urn:adsk.eagle:library:348159">
+<library name="DubSat1 Components">
 <description>Shared Library (on github) for components used in Dubsat1</description>
 <packages>
-<package name="TSOP-6" urn="urn:adsk.eagle:footprint:1731122/1" library_version="23" library_locally_modified="yes">
+<package name="TSOP-6">
 <smd name="P$1" x="-1" y="-1.162" dx="0.508" dy="0.7" layer="1"/>
 <smd name="P$2" x="0" y="-1.162" dx="0.508" dy="0.7" layer="1"/>
 <smd name="P$3" x="1" y="-1.162" dx="0.508" dy="0.7" layer="1"/>
@@ -10954,15 +10954,8 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <circle x="-1.129" y="-0.394" radius="0.162" width="0.127" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="TSOP-6" urn="urn:adsk.eagle:package:1731161/1" type="box" library_version="23" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="TSOP-6"/>
-</packageinstances>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="SI3865DDV" urn="urn:adsk.eagle:symbol:1731121/1" library_version="23" library_locally_modified="yes">
+<symbol name="SI3865DDV">
 <wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -10977,7 +10970,7 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SI3865DDV" urn="urn:adsk.eagle:component:1731186/1" library_version="23" library_locally_modified="yes">
+<deviceset name="SI3865DDV">
 <gates>
 <gate name="G$1" symbol="SI3865DDV" x="2.54" y="0"/>
 </gates>
@@ -10991,9 +10984,6 @@ Holes are offset 0.005" from center, locking pins in place during soldering.
 <connect gate="G$1" pin="IN" pad="P$4"/>
 <connect gate="G$1" pin="R2" pad="P$1"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1731161/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11068,8 +11058,8 @@ LETTER landscape</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="Smart fan" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
-<part name="U$2" library="Smart fan" deviceset="NANO" device="" package3d_urn="urn:adsk.eagle:package:5785597/2"/>
+<part name="U$1" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
+<part name="U$2" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="NANO" device="" package3d_urn="urn:adsk.eagle:package:5785597/2"/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -11081,8 +11071,8 @@ LETTER landscape</description>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK_LONGPADS"/>
 <part name="X_6" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_7" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J2" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
-<part name="U$3" library="DubSat1 Components" library_urn="urn:adsk.eagle:library:348159" deviceset="SI3865DDV" device="" package3d_urn="urn:adsk.eagle:package:1731161/1"/>
+<part name="J2" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/9"/>
+<part name="U$3" library="DubSat1 Components" deviceset="SI3865DDV" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_9" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
@@ -11093,8 +11083,8 @@ LETTER landscape</description>
 <part name="X_15" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_18" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="J4" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
-<part name="U$5" library="DubSat1 Components" library_urn="urn:adsk.eagle:library:348159" deviceset="SI3865DDV" device="" package3d_urn="urn:adsk.eagle:package:1731161/1"/>
+<part name="J4" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/9"/>
+<part name="U$5" library="DubSat1 Components" deviceset="SI3865DDV" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_13" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
@@ -11102,8 +11092,8 @@ LETTER landscape</description>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_16" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_17" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J8" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
-<part name="U$8" library="DubSat1 Components" library_urn="urn:adsk.eagle:library:348159" deviceset="SI3865DDV" device="" package3d_urn="urn:adsk.eagle:package:1731161/1"/>
+<part name="J8" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/9"/>
+<part name="U$8" library="DubSat1 Components" deviceset="SI3865DDV" device=""/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_22" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
@@ -11111,14 +11101,14 @@ LETTER landscape</description>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_23" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_24" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="J1" library="Smart fan" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/7"/>
-<part name="U$4" library="Smart fan" deviceset="AIR_QUALITY_SENSOR" device="" package3d_urn="urn:adsk.eagle:package:5896327/1"/>
+<part name="J1" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="CONN_04" device="MOLEX_FAN_HEADER" package3d_urn="urn:adsk.eagle:package:5789039/9"/>
+<part name="U$4" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="AIR_QUALITY_SENSOR" device="" package3d_urn="urn:adsk.eagle:package:5896327/2"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_05" device="NO_SILK"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="X_8" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="X_11" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="U$7" library="Smart fan" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
+<part name="U$7" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="X_25" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
@@ -11126,7 +11116,7 @@ LETTER landscape</description>
 <part name="X_27" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
 <part name="J9" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK_LONGPADS"/>
 <part name="X_28" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
-<part name="U$9" library="Smart fan" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
+<part name="U$9" library="Smart fan" library_urn="urn:adsk.eagle:library:5785584" deviceset="MPL115A1" device="" package3d_urn="urn:adsk.eagle:package:5785598/3"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
 <part name="X_29" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
