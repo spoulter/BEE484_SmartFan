@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-10-12T19:48:06Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Smart Fan Controler"
+        },
+        "Owner": "Sean Poulter <seanpoulter@outlook.com>",
+        "Size": {
+            "X": 93.909,
+            "Y": 99.953
+        }
+    }
+}

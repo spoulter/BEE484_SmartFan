@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
 <eagle version="9.2.0">
 <drawing>
 <settings>
@@ -277,8 +278,8 @@
 <text x="0" y="-2.286" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
 <package name="PCIE_X1_FORM" urn="urn:adsk.eagle:footprint:5785586/1">
-<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; &#xD;
-Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;&#xD;
+<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
+Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
 Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <wire x1="8" y1="0.35" x2="8" y2="9.05" width="0.000003125" layer="20"/>
 <wire x1="8" y1="0.35" x2="8.2" y2="0.05" width="0.000003125" layer="20"/>
@@ -1007,14 +1008,14 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 <packageinstance name="NANO"/>
 </packageinstances>
 </package3d>
-<package3d name="AIR_SENSOR" urn="urn:adsk.eagle:package:5896327/2" type="model">
+<package3d name="AIR_SENSOR" urn="urn:adsk.eagle:package:5896327/3" type="model">
 <packageinstances>
 <packageinstance name="AIR_SENSOR"/>
 </packageinstances>
 </package3d>
 <package3d name="PCIE_X1_FORM" urn="urn:adsk.eagle:package:5785595/1" type="box">
-<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; &#xD;
-Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;&#xD;
+<description>Copy from  &lt;b&gt;con-pci_express(pci-e).lbr&lt;/b&gt; uploaded &lt;i&gt;Mon Jul 2 10:15:25 2007&lt;/i&gt; with Finished-Layer&lt;p&gt; 
+Library for PCI-Express x16 (PCI-E) connector. Includes connector and card edge pattern.&lt;br&gt;
 Uploaded by JF Duval &amp;lt;jfduval@aqra.ca&amp;gt; from AQRA.ca</description>
 <packageinstances>
 <packageinstance name="PCIE_X1_FORM"/>
@@ -1466,14 +1467,14 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 </device>
 </devices>
 </deviceset>
-<deviceset name="AIR_QUALITY_SENSOR" urn="urn:adsk.eagle:component:5896328/2">
+<deviceset name="AIR_QUALITY_SENSOR" urn="urn:adsk.eagle:component:5896328/2" locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="AIR_SENSOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="AIR_SENSOR">
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5896327/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5896327/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1529,7 +1530,7 @@ Holes are offset 0.005" from center to hold pins in place during soldering.
 </device>
 </devices>
 </deviceset>
-<deviceset name="CONN_04" prefix="J" uservalue="yes" urn="urn:adsk.eagle:component:5785671/5">
+<deviceset name="CONN_04" urn="urn:adsk.eagle:component:5785671/5" prefix="J" uservalue="yes">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
