@@ -11136,6 +11136,16 @@ LETTER landscape</description>
 <wire x1="142.24" y1="38.1" x2="142.24" y2="53.34" width="0.1524" layer="94"/>
 <wire x1="142.24" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="94"/>
 <wire x1="111.76" y1="53.34" x2="111.76" y2="38.1" width="0.1524" layer="94"/>
+<text x="7.62" y="15.24" size="1.778" layer="91">EN: Enables one of the power switches to a fan. [active High] </text>
+<text x="7.62" y="12.7" size="1.778" layer="91">SCLK: Clock for SPI Bus</text>
+<text x="7.62" y="10.16" size="1.778" layer="91">MISO: Master in slave out for SPI bus.</text>
+<text x="7.62" y="10.16" size="1.778" layer="91">MISO: Master in slave out for SPI bus.</text>
+<text x="7.62" y="7.62" size="1.778" layer="91">MOSI: Master out slave in for SPI bus.</text>
+<text x="7.62" y="5.08" size="1.778" layer="91">CS: Chip select for SPI bus</text>
+<text x="7.62" y="2.54" size="1.778" layer="91">PWM: PWM output to fan to control speed [25kHz]</text>
+<text x="7.62" y="0" size="1.778" layer="91">SENSE: input from fan to measure speed. [Lookup PWM fan standards]</text>
+<text x="7.62" y="-2.54" size="1.778" layer="91">VOUT: signal from dust sensor [see datasheet]</text>
+<text x="7.62" y="-5.08" size="1.778" layer="91">Vth: Offset voltage for dust sensor. not in use </text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="48.26" y="91.44"/>
@@ -11386,7 +11396,7 @@ LETTER landscape</description>
 <wire x1="30.48" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="63.5" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="71.12" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
-<label x="22.86" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="22.86" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCLK"/>
@@ -11413,7 +11423,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A4"/>
 <wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<label x="25.4" y="45.72" size="1.778" layer="95"/>
+<label x="20.32" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -11422,7 +11432,7 @@ LETTER landscape</description>
 <wire x1="63.5" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="63.5" x2="66.04" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
-<label x="71.12" y="71.12" size="1.778" layer="95" xref="yes"/>
+<label x="76.2" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DOUT"/>
@@ -11444,7 +11454,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D11"/>
 <wire x1="63.5" y1="60.96" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
-<label x="71.12" y="60.96" size="1.778" layer="95" xref="yes"/>
+<label x="76.2" y="63.5" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="DIN"/>
@@ -11465,8 +11475,8 @@ LETTER landscape</description>
 <net name="5V" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="5.5V"/>
-<wire x1="30.48" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
-<label x="22.86" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="17.78" y="35.56" size="1.778" layer="95"/>
+<wire x1="30.48" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -11508,7 +11518,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A6"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
-<label x="25.4" y="40.64" size="1.778" layer="95"/>
+<label x="20.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS3" class="0">
@@ -11520,7 +11530,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A7"/>
 <wire x1="30.48" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
-<label x="25.4" y="38.1" size="1.778" layer="95"/>
+<label x="20.32" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="EN3" class="0">
@@ -11534,9 +11544,8 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A0"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="55.88" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
-<label x="22.86" y="58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="55.88" x2="22.86" y2="55.88" width="0.1524" layer="91"/>
+<label x="17.78" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11613,9 +11622,8 @@ LETTER landscape</description>
 <net name="EN1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A2"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="50.8" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
-<label x="22.86" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="30.48" y1="50.8" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
+<label x="17.78" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$8" gate="G$1" pin="EN"/>
@@ -11630,7 +11638,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="A1"/>
 <wire x1="30.48" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
-<label x="22.86" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="17.78" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="EN"/>
@@ -11645,7 +11653,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D3"/>
 <wire x1="63.5" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
-<label x="71.12" y="40.64" size="1.778" layer="95" xref="yes"/>
+<label x="71.12" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="4"/>
@@ -11657,7 +11665,7 @@ LETTER landscape</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D5"/>
 <wire x1="63.5" y1="45.72" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
-<label x="71.12" y="45.72" size="1.778" layer="95" xref="yes"/>
+<label x="71.12" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="4"/>
@@ -11673,15 +11681,16 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D6"/>
-<wire x1="63.5" y1="48.26" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
-<label x="71.12" y="50.8" size="1.778" layer="95" xref="yes"/>
+<wire x1="63.5" y1="48.26" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<label x="71.12" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SENSE1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D2"/>
-<wire x1="63.5" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
-<label x="81.28" y="38.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="63.5" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
+<label x="71.12" y="38.1" size="1.778" layer="95"/>
+<wire x1="71.12" y1="38.1" x2="68.58" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="3"/>
@@ -11692,8 +11701,8 @@ LETTER landscape</description>
 <net name="SENSE2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D4"/>
-<wire x1="63.5" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<label x="81.28" y="43.18" size="1.778" layer="95" xref="yes"/>
+<wire x1="63.5" y1="43.18" x2="71.12" y2="43.18" width="0.1524" layer="91"/>
+<label x="71.12" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="3"/>
@@ -11704,10 +11713,8 @@ LETTER landscape</description>
 <net name="SENSE3" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="D7"/>
-<wire x1="63.5" y1="50.8" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="50.8" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<label x="81.28" y="55.88" size="1.778" layer="95" xref="yes"/>
+<wire x1="63.5" y1="50.8" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
+<label x="71.12" y="50.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
@@ -11791,8 +11798,7 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D9"/>
-<wire x1="63.5" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="55.88" x2="68.58" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="55.88" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <label x="68.58" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11816,7 +11822,7 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D8"/>
-<wire x1="63.5" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="68.58" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
